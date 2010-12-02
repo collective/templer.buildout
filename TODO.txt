@@ -1,0 +1,5 @@
+[ ] - move recipe template from templer.core
+[ ] - move abstract_buildout template from zopeskel and re-create it as basic_buildout
+[ ] - move entry points from zopeskel and templer.core to here
+[ ] - move tests from zopeskel and templer to here
+[ ] - add dependency on this package to zopeskel.
