@@ -1,0 +1,1 @@
+from templer.buildout.recipe import Recipe
