@@ -38,7 +38,14 @@ setup(name='templer.buildout',
           'templer.core',
           # -*- Extra requirements: -*-
       ],
+      
+      tests_require=[
+        'zc.buildout==1.4.3',
+        'Cheetah', 
+        'PasteScript'],
+      test_suite='templer.buildout.tests.test_all.test_suite',
       entry_points="""
-      # -*- Entry points: -*-
+      [paste.paster_create_template]
+      recipe = templer.buildout:Recipe
       """,
       )
