@@ -47,5 +47,6 @@ setup(name='templer.buildout',
       entry_points="""
       [paste.paster_create_template]
       recipe = templer.buildout:Recipe
+      basic_buildout = templer.buildout:BasicBuildout
       """,
       )
