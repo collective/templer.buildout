@@ -48,5 +48,8 @@ setup(name='templer.buildout',
       [paste.paster_create_template]
       recipe = templer.buildout:Recipe
       basic_buildout = templer.buildout:BasicBuildout
+      
+      [templer.templer_structure]
+      bootstrap = templer.buildout.structures:BootstrapStructure
       """,
       )

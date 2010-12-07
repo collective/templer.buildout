@@ -3,14 +3,12 @@ from templer.core.base import BaseTemplate
 class BasicBuildout(BaseTemplate):
     _template_dir = 'templates/basic_buildout'
     summary = "A basic buildout skeleton"
-    ndots = 1
     help = """
-This creates a Python project without any Zope or Plone features.
+This creates a basic skeleton for a buildout.
 """
     category = "Buildout"
     required_templates = []
     required_structures = ['bootstrap',]
     use_cheetah = True
-    
-    
+
     
