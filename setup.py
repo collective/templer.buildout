@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0-dev'
+version = '1.0a-dev'
 
 long_description = (
     open('README.txt').read()
@@ -42,7 +42,8 @@ setup(name='templer.buildout',
       tests_require=[
         'zc.buildout==1.4.3',
         'Cheetah', 
-        'PasteScript'],
+        'PasteScript',
+        'templer.core'],
       test_suite='templer.buildout.tests.test_all.test_suite',
       entry_points="""
       [paste.paster_create_template]
