@@ -36,7 +36,6 @@ setup(name='templer.buildout',
       install_requires=[
           'setuptools',
           'templer.core',
-          # -*- Extra requirements: -*-
       ],
       
       tests_require=[
