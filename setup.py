@@ -14,6 +14,11 @@ long_description = (
     open('CHANGES.txt').read()
     + '\n')
 
+tests_require=[
+    'Cheetah', 
+    'PasteScript',
+    'templer.core'],
+
 setup(name='templer.buildout',
       version=version,
       description="Templer system extensions for buildouts and buildout recipes",
@@ -37,13 +42,9 @@ setup(name='templer.buildout',
           'setuptools',
           'templer.core',
       ],
-      
-      tests_require=[
-        'zc.buildout==1.4.3',
-        'Cheetah', 
-        'PasteScript',
-        'templer.core'],
+      tests_require=tests_require,
       test_suite='templer.buildout.tests.test_all.test_suite',
+      extras_require=dict(test=tests_require),
       entry_points="""
       [paste.paster_create_template]
       recipe = templer.buildout:Recipe
