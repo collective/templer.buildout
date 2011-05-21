@@ -8,7 +8,7 @@ This creates a basic skeleton for a buildout.
 """
     category = "Buildout"
     required_templates = []
-    required_structures = ['bootstrap',]
+    default_required_structures = ['bootstrap',]
     use_cheetah = True
 
     

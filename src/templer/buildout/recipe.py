@@ -12,7 +12,7 @@ This creates a skeleton for a buildout recipe.
 """
     category = "Buildout"
     required_templates = ['nested_namespace']
-    required_structures = ['egg_docs','bootstrap']
+    default_required_structures = ['egg_docs','bootstrap']
     use_cheetah = True
     vars = copy.deepcopy(NestedNamespace.vars)
     get_var(vars, 'namespace_package2').default = 'recipe'
