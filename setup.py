@@ -14,8 +14,8 @@ long_description = (
     open('CHANGES.txt').read()
     + '\n')
 
-tests_require=[
-    'Cheetah', 
+tests_require = [
+    'Cheetah',
     'PasteScript',
     'templer.core'],
 
@@ -23,10 +23,9 @@ setup(name='templer.buildout',
       version=version,
       description="Templer system extensions for buildouts and buildout recipes",
       long_description=long_description,
-      # Get more strings from
-      # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Development Status :: 3 - Alpha",
+        "Environment :: Environment :: Console",
         "Framework :: Zope2",
         "Framework :: Zope3",
         "Framework :: Plone",
@@ -44,8 +43,8 @@ setup(name='templer.buildout',
       keywords='',
       author='Cris Ewing',
       author_email='cris@crisewing.com',
-      url='http://svn.plone.org/svn/collective/',
-      license='gpl',
+      url='https://github.com/collective/templer.buildout',
+      license='GPL',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       namespace_packages=['templer'],
@@ -61,7 +60,7 @@ setup(name='templer.buildout',
       [paste.paster_create_template]
       recipe = templer.buildout:Recipe
       basic_buildout = templer.buildout:BasicBuildout
-      
+
       [templer.templer_structure]
       bootstrap = templer.buildout.structures:BootstrapStructure
       """,
