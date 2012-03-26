@@ -15,6 +15,7 @@ long_description = (
     + '\n')
 
 tests_require = [
+    'unittest2',
     'Cheetah',
     'PasteScript',
     'templer.core'],
