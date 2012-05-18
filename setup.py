@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0a2'
+version = '1.0b1'
 
 long_description = (
     open('README.txt').read()
@@ -26,10 +26,14 @@ setup(name='templer.buildout',
       long_description=long_description,
       classifiers=[
         "Development Status :: 3 - Alpha",
-        "Environment :: Environment :: Console",
+        "Environment :: Console",
         "Framework :: Zope2",
         "Framework :: Zope3",
         "Framework :: Plone",
+        "Framework :: Plone :: 3.2",
+        "Framework :: Plone :: 3.3",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.1",
         "Framework :: Buildout",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
