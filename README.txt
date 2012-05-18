@@ -24,6 +24,15 @@ script is invoked thus::
 This will create a basic buildout skeleton, containing the zc.buildout 
 bootstrap.py file and a buildout.cfg file which may be edited to taste.
 
+Included Templates
+------------------
+
+basic_buildout
+    This creates a basic skeleton for a buildout.
+
+recipe
+    This creates a skeleton for a buildout recipe for use with zc.buildout
+
 Other Functions
 ---------------
 

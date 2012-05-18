@@ -1,4 +1,5 @@
 - Cris Ewing, original author
+- Hector Velarde
 
 Based on code from zopeskel, contributors to which include:
 

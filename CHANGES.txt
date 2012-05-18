@@ -1,8 +1,20 @@
 Changelog
 =========
 
-1.0-dev (unreleased)
+1.0b1 - May 17, 2012
 --------------------
+
+- Update tests to unittest2, remove deprected test aliases
+  [hvelarde]
+
+- Fix up packaging
+  [hvelarde]
+
+1.0a2 - October 7, 2011
+-----------------------
+
+- Updated license to MIT
+  [cewing]
 
 - Created new basic_buildout template to serve as a basis for other buildout
   templates (and to be useful on its own as a simple core buildout)
