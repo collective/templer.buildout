@@ -25,7 +25,7 @@ setup(name='templer.buildout',
       description="Templer system extensions for buildouts and buildout recipes",
       long_description=long_description,
       classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Environment :: Console",
         "Framework :: Zope2",
         "Framework :: Zope3",
