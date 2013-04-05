@@ -2,10 +2,10 @@
 recipe template
 ===============
 
-Use paster::
+Use templer::
 
-    >>> paster('create -t recipe plone.recipe.example --no-interactive')
-    paster create -t recipe plone.recipe.example --no-interactive
+    >>> templer('recipe plone.recipe.example --no-interactive')
+    templer recipe plone.recipe.example --no-interactive
     ...
 
 Let's check the content::
@@ -42,7 +42,7 @@ Let's check how the recipe looks like::
             """Updater"""
             pass
 
-Now let's try to run the recipe own tests::
+Now let's try to run the recipe's own tests::
 
     >>> recipe_dir = 'plone.recipe.example'
     >>> cd(recipe_dir)
