@@ -17,7 +17,6 @@ long_description = (
 tests_require = [
     'unittest2',
     'Cheetah',
-    'PasteScript',
     'templer.core'],
 
 setup(name='templer.buildout',
